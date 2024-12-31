@@ -1,3 +1,201 @@
-#header{
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.header {
     display: flex;
+    justify-content: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically in the middle */
+    padding: 16px;
+    height: 20px; /* Added to give the header a consistent height */
+    border: none; /* Removes any border */
+    outline: none; /* Removes any outline (focus border) */
+    gap: 700px;
+}
+
+.header-links{
+    display:flex;
+    gap :16px;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header .logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+    margin-left: 32px;
+}
+.header-content {
+    display: flex; /* Added to enable flexbox */
+    justify-content: center; /* Centered items horizontally */
+    align-items: center; /* Centered items vertically */
+    max-width: 1200px; /* Added to constrain the width */
+    margin: 0 auto; /* Centered the content in the section */
+    margin-top: 50px; /* Added to vertically center content */
+    margin-bottom: auto; /* Added to vertically center content */
+    gap: 32px; /* Added space between text and image */
+    width:calc(100vw-100) !important;
+}
+.text .top{
+    font-size: 48px;
+    color: #f9faf8;
+    margin-bottom: 16px;
+    font-weight: 900    ;
+}
+.text .subtext{
+    font-size: 18px;
+    color: #e5e7eb;;
+}
+.section-one{
+background-color: #1F2937;
+color:white;
+
+}
+.text button {
+    background-color: #3882f6; /* No change */
+    color: white; /* No change */
+    font-weight: 600; /* Changed from invalid 560 to valid 600 */
+    border: none; /* No change */
+    padding: 10px 30px; /* No change */
+    border-radius: 10px; /* No change */
+    cursor: pointer; /* No change */
+    transition: all 0.3s ease; /* Added for smooth hover effect */
+    margin-top: 20px;
+}
+.text{
+    padding: 16px;
+}
+.section-one {
+    background-color: #1F2937; /* No change */
+    color: white; /* No change */
+    display: flex; /* Added to enable flexbox layout */
+    flex-direction: column; /* Added to stack header and content */
+    padding-bottom: 60px;
+}
+.section-two{
+    text-align: center;
+    background-color: #f9faf8; /* Change to a lighter background */
+    padding: 20px; /* Add padding to ensure space for text */
+}
+
+.section-two .text{
+    font-size: 36px;
+    color: black; /* Changed to a lighter color for visibility */
+    font-weight: 900;
+}
+.section-two .subtext{
+    padding: 20px;
+    display: flex;
+    max-width: 152px;
+}
+.boxes{
+    display: flex;
+ justify-content: center;
+ flex-grow: 0;
+ gap: 50px;
+}
+.box{
+    padding: 70px;
+    display: inline-block;
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 10px;
+    color: #3882f6;
+    flex-grow: 0;
+
+}
+.container .text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    max-width: 150px;
+    font-size: small;
+    font-weight: 200;
+    color: gray;
+    padding-top: 5px;
+
+}
+.section-three{
+    display: flex;
+    flex-direction: column; /* Stack the elements vertically */
+    align-items: center; /* Center the content horizontally */
+    text-align: center;
+    background-color: #e5e7eb;
+    padding: 20px 50px; /* Added padding to section for spacing */
+    
+}
+.quote{
+    font-style: italic;
+    color: #1f2937;
+    font-family: 'Light Italic', sans-serif;
+    font-size: 36px;
+    padding: 50px; /* Reduced padding */
+    margin: 0 auto;
+    max-width: 800px; /* Limit the width for better readability */
+    font-weight: 90;
+    padding-bottom: 20px;
+}
+
+.author{
+    text-align: right;
+    font-size: 20px;
+    color:black; /* Lighter gray for author */
+    margin-top: 10px;
+    font-weight: 700;
+}
+.section-four{
+   
+   color: white; 
+   padding: 20px 0;
+   display: flex;
+   justify-content: center;
+}
+.section-four .container{
+    display: flex;
+    align-items: center; /* Centering the items vertically */
+    margin: 10px 30px;
+    padding: 25px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    background-color: #2b7cff; /* Added a background color to make the container visible */
+    border-radius: 10px;
+    gap: 300px;
+    max-height: 200px;
+}
+
+.container .text {
+    max-width: 550px; /* Limiting width for better layout */
+    color: white;
+}
+.container .head{
+    font-size: 40px;
+}
+.container p{
+    font-size: 20px;
+}
+
+.container button {
+    background-color: #3882f6; 
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.section-five{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    justify-content: center;
 }
