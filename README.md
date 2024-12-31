@@ -24,6 +24,10 @@ This project is a learning exercise focused on HTML and CSS basics, with an emph
 - **CSS3**: Styling and layout using Flexbox for responsive design.
 - **Google Fonts**: Custom font (Roboto) applied for improved typography.
 
+## Website
+
+You can view the live version of this landing page [here](https://sumedhvats.github.io/landing-page/).
+
 ## Setup and Usage
 
 1. Clone this repository to your local machine.
